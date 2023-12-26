@@ -6,7 +6,7 @@ const Designers = () => {
       <h3 className="text-center font-bold text-3xl mt-7 ">
         meet our expert designers{" "}
       </h3>
-      <div className=" grid grid-cols-4  2xl:place-items-center mt-7 gap-y-7 xl:grid-cols-3 llg:grid-cols-2 sm:grid-cols-1 ">
+      <div className=" grid grid-cols-4  place-items-center mt-7 gap-y-7 xl:grid-cols-3 llg:grid-cols-2 sm:grid-cols-1 ">
         {arr.map((items, i) => (
           <div className="bg-slate-100 w-[300px] py-2 rounded-sm" key={i}>
             <img
